@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #1d1d1d;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  color: #f39c12;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Order Form */
+#order-form {
+  width: 50%;
+}
+
+#order-form h2 {
+  color: #f39c12;
+}
+
+#order-form select, #order-form input, #order-form textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  color: #e5e5e5;
+  border: 1px solid #444;
+}
+
+button {
+  background-color: #f39c12;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+/* Live Order Section */
+#live-orders {
+  width: 45%;
+}
+
+#live-orders h2 {
+  color: #f39c12;
+}
+
+#orders-list {
+  background-color: #333;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #1d1d1d;
+  color: #f39c12;
+  text-align: center;
+  padding: 10px;
+}
